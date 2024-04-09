@@ -1,0 +1,29 @@
+
+@media (min-width:1000px) {
+    .school-card {
+
+        // display: none;
+    }
+
+}
+
+@media (max-width:800px) {
+    .school-card{
+        display: flex !important;
+        flex-wrap: wrap;
+        // flex-direction: column !important;
+        .lable-block{
+            // display: none;
+        }
+        .cardTabel{
+            display: none;
+        }
+        .card-button{
+            display: none;
+        }
+        .cardPic img{
+         height: 200px;
+         width: 80% !important;
+        }
+    }
+}
